@@ -1,0 +1,197 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/mVXjJywh/D1.png",
+    "name": "Dr. Arif Hossain",
+    "education": "MBBS, FCPS (Medicine)",
+    "speciality": "General Medicine",
+    "experience": "12 years",
+    "availability": [
+      { "day": "Mon", "time": "10:00 AM - 4:00 PM" },
+      { "day": "Tue", "time": "10:00 AM - 4:00 PM" },
+      { "day": "Wed", "time": "10:00 AM - 4:00 PM" },
+      { "day": "Thu", "time": "10:00 AM - 4:00 PM" },
+      { "day": "Fri", "time": "10:00 AM - 4:00 PM" }
+    ],
+    "consultation_fee": 500,
+    "registration_number": "REG-MED-001",
+    "working_at": "City General Hospital"
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/sdnvrnCc/D3.png",
+    "name": "Dr. Nusrat Jahan",
+    "education": "MBBS, MD (Cardiology)",
+    "speciality": "Cardiologist",
+    "experience": "8 years",
+    "availability": [
+      { "day": "Mon", "time": "9:00 AM - 2:00 PM" },
+      { "day": "Tue", "time": "9:00 AM - 2:00 PM" },
+      { "day": "Wed", "time": "9:00 AM - 2:00 PM" }
+    ],
+    "consultation_fee": 800,
+    "registration_number": "REG-CAR-002",
+    "working_at": "HeartCare Hospital"
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/PvVTC1gv/D2.png",
+    "name": "Dr. Selim Ahmed",
+    "education": "MBBS, MS (Surgery)",
+    "speciality": "Surgeon",
+    "experience": "15 years",
+    "availability": [
+      { "day": "Tue", "time": "11:00 AM - 5:00 PM" },
+      { "day": "Thu", "time": "11:00 AM - 5:00 PM" }
+    ],
+    "consultation_fee": 1000,
+    "registration_number": "REG-SUR-003",
+    "working_at": "Central Surgical Clinic"
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/7NXPS2HB/D7.png",
+    "name": "Dr. Farhana Akter",
+    "education": "MBBS, MD (Pediatrics)",
+    "speciality": "Pediatrician",
+    "experience": "10 years",
+    "availability": [
+      { "day": "Mon", "time": "9:30 AM - 3:30 PM" },
+      { "day": "Tue", "time": "9:30 AM - 3:30 PM" },
+      { "day": "Wed", "time": "9:30 AM - 3:30 PM" },
+      { "day": "Thu", "time": "9:30 AM - 3:30 PM" },
+      { "day": "Fri", "time": "9:30 AM - 3:30 PM" }
+    ],
+    "consultation_fee": 600,
+    "registration_number": "REG-PED-004",
+    "working_at": "Sunshine Children Hospital"
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/tP4GRjgQ/D4.png",
+    "name": "Dr. Imran Khan",
+    "education": "MBBS, MD (Neurology)",
+    "speciality": "Neurologist",
+    "experience": "9 years",
+    "availability": [
+      { "day": "Mon", "time": "10:00 AM - 1:00 PM" },
+      { "day": "Wed", "time": "10:00 AM - 1:00 PM" },
+      { "day": "Fri", "time": "10:00 AM - 1:00 PM" }
+    ],
+    "consultation_fee": 900,
+    "registration_number": "REG-NEU-005",
+    "working_at": "NeuroCare Clinic"
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/MDZPM0Dg/D9.png",
+    "name": "Dr. Laila Rahman",
+    "education": "MBBS, FCPS (Gynecology)",
+    "speciality": "Gynecologist",
+    "experience": "11 years",
+    "availability": [
+      { "day": "Tue", "time": "9:00 AM - 2:00 PM" },
+      { "day": "Thu", "time": "9:00 AM - 2:00 PM" }
+    ],
+    "consultation_fee": 700,
+    "registration_number": "REG-GYN-006",
+    "working_at": "MotherCare Hospital"
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/DfvWfbCn/D5.png",
+    "name": "Dr. Rafiq Uddin",
+    "education": "MBBS, MD (Dermatology)",
+    "speciality": "Dermatologist",
+    "experience": "7 years",
+    "availability": [
+      { "day": "Mon", "time": "11:00 AM - 4:00 PM" },
+      { "day": "Tue", "time": "11:00 AM - 4:00 PM" },
+      { "day": "Wed", "time": "11:00 AM - 4:00 PM" },
+      { "day": "Thu", "time": "11:00 AM - 4:00 PM" },
+      { "day": "Fri", "time": "11:00 AM - 4:00 PM" }
+    ],
+    "consultation_fee": 500,
+    "registration_number": "REG-DER-007",
+    "working_at": "SkinCare Clinic"
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/1tFXhcvZ/D10.png",
+    "name": "Dr. Samira Begum",
+    "education": "MBBS, MD (Ophthalmology)",
+    "speciality": "Ophthalmologist",
+    "experience": "13 years",
+    "availability": [
+      { "day": "Mon", "time": "10:00 AM - 3:00 PM" },
+      { "day": "Wed", "time": "10:00 AM - 3:00 PM" }
+    ],
+    "consultation_fee": 650,
+    "registration_number": "REG-OPH-008",
+    "working_at": "VisionCare Eye Hospital"
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/ccBgjRxQ/D6.png",
+    "name": "Dr. Tanvir Alam",
+    "education": "MBBS, MS (Orthopedics)",
+    "speciality": "Orthopedic Surgeon",
+    "experience": "14 years",
+    "availability": [
+      { "day": "Tue", "time": "12:00 PM - 5:00 PM" },
+      { "day": "Thu", "time": "12:00 PM - 5:00 PM" }
+    ],
+    "consultation_fee": 950,
+    "registration_number": "REG-ORT-009",
+    "working_at": "Bone & Joint Hospital"
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/Z1brpgvV/D11.png",
+    "name": "Dr. Nadia Chowdhury",
+    "education": "MBBS, MD (Psychiatry)",
+    "speciality": "Psychiatrist",
+    "experience": "8 years",
+    "availability": [
+      { "day": "Mon", "time": "9:00 AM - 1:00 PM" },
+      { "day": "Tue", "time": "9:00 AM - 1:00 PM" },
+      { "day": "Wed", "time": "9:00 AM - 1:00 PM" },
+      { "day": "Thu", "time": "9:00 AM - 1:00 PM" },
+      { "day": "Fri", "time": "9:00 AM - 1:00 PM" }
+    ],
+    "consultation_fee": 700,
+    "registration_number": "REG-PSY-010",
+    "working_at": "MindCare Hospital"
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co.com/fG2PSKY3/D8.png",
+    "name": "Dr. Shakil Hossain",
+    "education": "MBBS, MD (ENT)",
+    "speciality": "ENT Specialist",
+    "experience": "10 years",
+    "availability": [
+      { "day": "Mon", "time": "10:00 AM - 3:00 PM" },
+      { "day": "Wed", "time": "10:00 AM - 3:00 PM" },
+      { "day": "Fri", "time": "10:00 AM - 3:00 PM" }
+    ],
+    "consultation_fee": 600,
+    "registration_number": "REG-ENT-011",
+    "working_at": "Ear & Throat Care Clinic"
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co.com/gbJfk7NK/D12.png",
+    "name": "Dr. Rina Sultana",
+    "education": "MBBS, MD (Endocrinology)",
+    "speciality": "Endocrinologist",
+    "experience": "9 years",
+    "availability": [
+      { "day": "Tue", "time": "9:00 AM - 2:00 PM" },
+      { "day": "Thu", "time": "9:00 AM - 2:00 PM" }
+    ],
+    "consultation_fee": 750,
+    "registration_number": "REG-END-012",
+    "working_at": "EndoCare Hospital"
+  }
+]
