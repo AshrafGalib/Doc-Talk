@@ -1,6 +1,7 @@
 import React from 'react';
 import { dayName } from '../../../public/date';
 import { FaRegRegistered } from "react-icons/fa";
+import { NavLink } from 'react-router';
 const Doctor = ({doctor}) => {
     //console.log(dayName)
     //console.log(doctor)
@@ -31,7 +32,7 @@ const Doctor = ({doctor}) => {
     <p>Reg. No: {registration_number}</p>
     </div>
     <div className="card-actions">
-      <button className="btn btn-primary">View details</button>
+      <NavLink to={`/doctorDetails/${registration_number}`}><button className="btn btn-outline btn-info">View details</button></NavLink>
       
     </div>
   </div>

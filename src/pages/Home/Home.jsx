@@ -8,12 +8,25 @@ import CountUp from 'react-countup';
 import BMServices from '../../components/BMServices/BMServices';
 
 const Home = () => {
+    // const[doctors,setDoctors]=useState([])
+    //     useEffect(()=>{
+    //         fetch('Doctors.json')
+    //         .then(res=>res.json())
+    //         .then(data=>setDoctors(data))
+    //     },[])
+    
     const doctors =useLoaderData()
+    console.log(doctors)
+    // console.log(Array.isArray(doctors))
+//     const loaderData = useLoaderData();
+// const doctors = Array.isArray(loaderData) ? loaderData : [];
+
     
     //showAll state
     const [showAll,setShowAll]=useState(false)
     const visibleDoctors =showAll?doctors:doctors.slice(0,6)
     //console.log(doctors)
+    console.log(visibleDoctors)
     return (
         <div>
             <Banner></Banner>

@@ -30,7 +30,7 @@ const BMServices = () => {
 {/* card-2 */}
 <div className="card w-50 rounded-4xl bg-[#0D0D0D]  shadow-lg">
   <div className="card-body">
-    <img className='w-12' src={SuccessPatients} alt="" />
+    <img className='w-12' src={SuccessReview } alt="" />
     <CountUp className='text-5xl font-bold' start={0} end={467} duration={5} suffix="+"/>
     <p className='text-base font-semibold text-gray-500'>Total Reviews</p>
     
@@ -39,7 +39,7 @@ const BMServices = () => {
 {/* card-3 */}
 <div className="card w-50 rounded-4xl bg-[#0D0D0D]  shadow-lg">
   <div className="card-body">
-    <img className='w-12' src={SuccessReview} alt="" />
+    <img className='w-12' src={SuccessPatients} alt="" />
     <CountUp className='text-5xl font-bold' start={0} end={1900} duration={5} suffix="+" />
     <p className='text-base font-semibold text-gray-500'>Patients</p>
     

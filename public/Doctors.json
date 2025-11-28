@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "https://i.ibb.co.com/mVXjJywh/D1.png",
+    "image": "https://i.ibb.co/mVXjJywh/D1.png",
     "name": "Dr. Arif Hossain",
     "education": "MBBS, FCPS (Medicine)",
     "speciality": "General Medicine",
@@ -15,11 +15,12 @@
     ],
     "consultation_fee": 500,
     "registration_number": "REG-MED-001",
-    "working_at": "City General Hospital"
+    "working_at": "City General Hospital",
+    "profile_details": "Dr. Arif Hossain is an experienced general physician specializing in internal medicine. He has successfully treated thousands of patients and is known for his compassionate care and detailed consultations."
   },
   {
     "id": 2,
-    "image": "https://i.ibb.co.com/sdnvrnCc/D3.png",
+    "image": "https://i.ibb.co/sdnvrnCc/D3.png",
     "name": "Dr. Nusrat Jahan",
     "education": "MBBS, MD (Cardiology)",
     "speciality": "Cardiologist",
@@ -31,26 +32,29 @@
     ],
     "consultation_fee": 800,
     "registration_number": "REG-CAR-002",
-    "working_at": "HeartCare Hospital"
+    "working_at": "HeartCare Hospital",
+    "profile_details": "Dr. Nusrat Jahan is a cardiologist with expertise in heart disease management. She focuses on preventive cardiology and personalized treatment plans for each patient."
   },
   {
     "id": 3,
-    "image": "https://i.ibb.co.com/PvVTC1gv/D2.png",
+    "image": "https://i.ibb.co/PvVTC1gv/D2.png",
     "name": "Dr. Selim Ahmed",
     "education": "MBBS, MS (Surgery)",
     "speciality": "Surgeon",
     "experience": "15 years",
     "availability": [
       { "day": "Tue", "time": "11:00 AM - 5:00 PM" },
-      { "day": "Thu", "time": "11:00 AM - 5:00 PM" }
+      { "day": "Thu", "time": "11:00 AM - 5:00 PM" },
+      { "day": "Sat", "time": "11:00 AM - 5:00 PM" }
     ],
     "consultation_fee": 1000,
     "registration_number": "REG-SUR-003",
-    "working_at": "Central Surgical Clinic"
+    "working_at": "Central Surgical Clinic",
+    "profile_details": "Dr. Selim Ahmed is a skilled surgeon specializing in general and laparoscopic surgeries. He emphasizes patient safety, precision, and quick recovery."
   },
   {
     "id": 4,
-    "image": "https://i.ibb.co.com/7NXPS2HB/D7.png",
+    "image": "https://i.ibb.co/7NXPS2HB/D7.png",
     "name": "Dr. Farhana Akter",
     "education": "MBBS, MD (Pediatrics)",
     "speciality": "Pediatrician",
@@ -64,11 +68,12 @@
     ],
     "consultation_fee": 600,
     "registration_number": "REG-PED-004",
-    "working_at": "Sunshine Children Hospital"
+    "working_at": "Sunshine Children Hospital",
+    "profile_details": "Dr. Farhana Akter has extensive experience in pediatric care, managing both acute and chronic illnesses. She is known for her friendly approach with children and detailed parental guidance."
   },
   {
     "id": 5,
-    "image": "https://i.ibb.co.com/tP4GRjgQ/D4.png",
+    "image": "https://i.ibb.co/tP4GRjgQ/D4.png",
     "name": "Dr. Imran Khan",
     "education": "MBBS, MD (Neurology)",
     "speciality": "Neurologist",
@@ -80,26 +85,29 @@
     ],
     "consultation_fee": 900,
     "registration_number": "REG-NEU-005",
-    "working_at": "NeuroCare Clinic"
+    "working_at": "NeuroCare Clinic",
+    "profile_details": "Dr. Imran Khan specializes in diagnosing and treating neurological disorders. He focuses on patient-centered care, offering advanced diagnostics and therapeutic approaches."
   },
   {
     "id": 6,
-    "image": "https://i.ibb.co.com/MDZPM0Dg/D9.png",
+    "image": "https://i.ibb.co/MDZPM0Dg/D9.png",
     "name": "Dr. Laila Rahman",
     "education": "MBBS, FCPS (Gynecology)",
     "speciality": "Gynecologist",
     "experience": "11 years",
     "availability": [
       { "day": "Tue", "time": "9:00 AM - 2:00 PM" },
-      { "day": "Thu", "time": "9:00 AM - 2:00 PM" }
+      { "day": "Thu", "time": "9:00 AM - 2:00 PM" },
+      { "day": "Sat", "time": "11:00 AM - 5:00 PM" }
     ],
     "consultation_fee": 700,
     "registration_number": "REG-GYN-006",
-    "working_at": "MotherCare Hospital"
+    "working_at": "MotherCare Hospital",
+    "profile_details": "Dr. Laila Rahman provides expert gynecological care including maternity, infertility, and wellness services. She is praised for her empathetic approach."
   },
   {
     "id": 7,
-    "image": "https://i.ibb.co.com/DfvWfbCn/D5.png",
+    "image": "https://i.ibb.co/DfvWfbCn/D5.png",
     "name": "Dr. Rafiq Uddin",
     "education": "MBBS, MD (Dermatology)",
     "speciality": "Dermatologist",
@@ -113,41 +121,46 @@
     ],
     "consultation_fee": 500,
     "registration_number": "REG-DER-007",
-    "working_at": "SkinCare Clinic"
+    "working_at": "SkinCare Clinic",
+    "profile_details": "Dr. Rafiq Uddin treats a wide range of skin conditions including acne, eczema, and allergies. He provides both medical and cosmetic dermatology solutions."
   },
   {
     "id": 8,
-    "image": "https://i.ibb.co.com/1tFXhcvZ/D10.png",
+    "image": "https://i.ibb.co/1tFXhcvZ/D10.png",
     "name": "Dr. Samira Begum",
     "education": "MBBS, MD (Ophthalmology)",
     "speciality": "Ophthalmologist",
     "experience": "13 years",
     "availability": [
       { "day": "Mon", "time": "10:00 AM - 3:00 PM" },
-      { "day": "Wed", "time": "10:00 AM - 3:00 PM" }
+      { "day": "Wed", "time": "10:00 AM - 3:00 PM" },
+      { "day": "Sun", "time": "11:00 AM - 5:00 PM" }
     ],
     "consultation_fee": 650,
     "registration_number": "REG-OPH-008",
-    "working_at": "VisionCare Eye Hospital"
+    "working_at": "VisionCare Eye Hospital",
+    "profile_details": "Dr. Samira Begum is an ophthalmologist specializing in vision correction, cataract surgery, and eye health. She emphasizes preventative care and detailed follow-up."
   },
   {
     "id": 9,
-    "image": "https://i.ibb.co.com/ccBgjRxQ/D6.png",
+    "image": "https://i.ibb.co/ccBgjRxQ/D6.png",
     "name": "Dr. Tanvir Alam",
     "education": "MBBS, MS (Orthopedics)",
     "speciality": "Orthopedic Surgeon",
     "experience": "14 years",
     "availability": [
       { "day": "Tue", "time": "12:00 PM - 5:00 PM" },
-      { "day": "Thu", "time": "12:00 PM - 5:00 PM" }
+      { "day": "Thu", "time": "12:00 PM - 5:00 PM" },
+      { "day": "Sun", "time": "11:00 AM - 5:00 PM" }
     ],
     "consultation_fee": 950,
     "registration_number": "REG-ORT-009",
-    "working_at": "Bone & Joint Hospital"
+    "working_at": "Bone & Joint Hospital",
+    "profile_details": "Dr. Tanvir Alam performs orthopedic surgeries and treats musculoskeletal disorders. He is known for his precise surgical skills and rehabilitation guidance."
   },
   {
     "id": 10,
-    "image": "https://i.ibb.co.com/Z1brpgvV/D11.png",
+    "image": "https://i.ibb.co/Z1brpgvV/D11.png",
     "name": "Dr. Nadia Chowdhury",
     "education": "MBBS, MD (Psychiatry)",
     "speciality": "Psychiatrist",
@@ -161,11 +174,12 @@
     ],
     "consultation_fee": 700,
     "registration_number": "REG-PSY-010",
-    "working_at": "MindCare Hospital"
+    "working_at": "MindCare Hospital",
+    "profile_details": "Dr. Nadia Chowdhury is a psychiatrist providing therapy and medication management for mental health issues. She focuses on holistic care and patient education."
   },
   {
     "id": 11,
-    "image": "https://i.ibb.co.com/fG2PSKY3/D8.png",
+    "image": "https://i.ibb.co/fG2PSKY3/D8.png",
     "name": "Dr. Shakil Hossain",
     "education": "MBBS, MD (ENT)",
     "speciality": "ENT Specialist",
@@ -177,11 +191,12 @@
     ],
     "consultation_fee": 600,
     "registration_number": "REG-ENT-011",
-    "working_at": "Ear & Throat Care Clinic"
+    "working_at": "Ear & Throat Care Clinic",
+    "profile_details": "Dr. Shakil Hossain is an ENT specialist treating ear, nose, and throat disorders. He combines medical and surgical care for complete ENT solutions."
   },
   {
     "id": 12,
-    "image": "https://i.ibb.co.com/gbJfk7NK/D12.png",
+    "image": "https://i.ibb.co/gbJfk7NK/D12.png",
     "name": "Dr. Rina Sultana",
     "education": "MBBS, MD (Endocrinology)",
     "speciality": "Endocrinologist",
@@ -192,6 +207,8 @@
     ],
     "consultation_fee": 750,
     "registration_number": "REG-END-012",
-    "working_at": "EndoCare Hospital"
+    "working_at": "EndoCare Hospital",
+    "profile_details": "Dr. Rina Sultana specializes in endocrine disorders including diabetes and thyroid issues. She offers patient-focused care with long-term management strategies."
   }
 ]
+
