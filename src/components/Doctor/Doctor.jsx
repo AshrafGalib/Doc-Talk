@@ -32,7 +32,7 @@ const Doctor = ({doctor}) => {
     <p>Reg. No: {registration_number}</p>
     </div>
     <div className="card-actions">
-      <NavLink to={`/doctorDetails/${registration_number}`}><button className="btn btn-outline btn-info">View details</button></NavLink>
+      <NavLink to={`/doctorDetails/${registration_number}`}><button className="rounded-xl btn btn-outline btn-info">View details</button></NavLink>
       
     </div>
   </div>

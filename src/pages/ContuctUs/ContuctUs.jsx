@@ -1,11 +1,13 @@
-import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-const ContuctUs = () => {
-    return (
-        <div>
-            <h1>Contuct Uss</h1>
-        </div>
-    );
-};
+export default function App() {
+  const notify = () => toast("Wow so easy !");
 
-export default ContuctUs;
+  return (
+    <div>
+      <button onClick={notify}>Notify !</button>
+      <ToastContainer />
+    </div>
+  );
+}

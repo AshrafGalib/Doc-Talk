@@ -1,17 +1,22 @@
-import React from 'react';
-import { useLoaderData, useParams } from 'react-router';
+import React, { use } from 'react';
+import { NavLink, useLoaderData, useParams } from 'react-router';
 import { FaRegRegistered } from "react-icons/fa";
 import { dayName } from '../../../public/date';
+//import { toast } from 'react-toastify';
+import { BookDocContext } from '../../../public/Context/bookContext';
+
+
+
 
 const DoctorDetails = () => {
-    
+    const {handleBook}=use(BookDocContext)
+    //const notify = (msg,type) => toast(msg,({type}));
     const regNmbr =useParams()
-    //console.log(regNmbr)
-    //console.log(regNmbr)
     const doctors =useLoaderData()
     //console.log(doctors)
+    //console.log(doctors)
     const doctor =doctors.find(doctor=>doctor.registration_number===regNmbr.registration_number)
-    //console.log(doctor)
+   //console.log(doctor)
     const isAvailableToday = doctor.availability.some(time => time.day === dayName);
     return (
         <>
@@ -73,24 +78,16 @@ const DoctorDetails = () => {
                    
                 
                 <div>
-                    {
-                        // doctor.availability.map(time=>dayName===time.day? <div className=" ml-9 mt-5  badge badge-soft badge-success">Doctor available today</div>:<div className=" ml-9 mt-5  badge badge-soft badge-success">Doctor not available today</div>)
-                        isAvailableToday?<div>
-                            <div className=" ml-9 mt-5  badge badge-soft badge-success">Doctor available today</div>
-                        </div>:
-                        <div>
-                            <div className=" ml-9 mt-5  badge badge-soft badge-warning">Doctor not available today</div>
-                        </div>
-                    }
+                    <div className={`ml-9 mt-5 badge-lg rounded-lg md:rounded-xl md:badge badge-soft ${isAvailableToday?'badge-success':'badge-warning'} `}>{isAvailableToday?'Doctor available today':'Doctor not available today'}</div>
                 </div>
             </div>
             <div className=' ml-7 mr-7 mt-5 border-t-2 border-dashed border-gray-800'></div>
-            
-            
         </div>
         <div className="ml-7 mr-7 mt-5 badge-lg md:badge badge-ghost"><small>Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</small></div>
-        <button className="mt-5 mb-5 ml-7 mr-7 btn btn-outline btn-info">Book Appointment Now</button>
-        </div>
+                <NavLink className='flex justify-center' to='/mybookings'>
+                    <button  onClick={()=>handleBook(doctor)} className="w-11/12 mt-5 mb-5 mr-7 ml-7 btn btn-outline btn-info">Book Appointment Now</button>
+                </NavLink>
+          </div>
         </>
         
     );

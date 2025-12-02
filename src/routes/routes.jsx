@@ -13,6 +13,11 @@ import DoctorDetails from '../pages/DoctorDetails/DoctorDetails';
 export const router = createBrowserRouter([
   {
   path : '/',
+  loader:async()=>{
+        const res = await fetch('/Doctors.json')
+        const data =await res.json()
+        return data
+      },
   Component :Root,
   children :[
     {index:true,
