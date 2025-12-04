@@ -3,11 +3,12 @@ import Navbar from '../../components/Header/Navbar';
 import { Outlet} from 'react-router';
 import Footer from '../../components/Footer/Footer';
 import { BookDocContext } from '../../../public/Context/bookContext';
-import {   useState } from 'react';
+import {  useState } from 'react';
 import { toast } from 'react-toastify';
 import { getBookedDocFromLocalStorage, setBookedDocToLocalStorage } from '../../utilities/localStorage';
 
 const Root = () => {
+    
     const [bookedDoctors, setBookedDoctors] = useState(() => {
         return getBookedDocFromLocalStorage();
     });
@@ -32,6 +33,7 @@ const Root = () => {
         localStorage.setItem("Booked Doctor", JSON.stringify(updated));
     }
  return (
+    
         <div className= 'w-11/12 mx-auto'>
             
             <Navbar></Navbar>

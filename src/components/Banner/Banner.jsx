@@ -3,8 +3,10 @@ import image from "../../assets/banner-img-1.png"
 
 const Banner = () => {
     return (
-        <div
-  className="mt-4 hero min-h-screen rounded-2xl"
+      <>
+      <div
+        
+  className="mt-4 hero min-h-[500px] rounded-2xl"
   style={{
     backgroundImage:
       `url(${image})`,
@@ -20,6 +22,8 @@ const Banner = () => {
     </div>
   </div>
 </div>
+      </>
+        
     );
 };
 

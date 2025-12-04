@@ -19,7 +19,7 @@ const Doctor = ({doctor}) => {
   </div>
    <div>
         {
-           availability.map((timing)=> dayName===timing.day &&<div className=" ml-9 mt-5  badge badge-soft badge-success">Available</div>  ) 
+           availability.map((timing,index)=> dayName===timing.day &&<div key={index} className=" ml-9 mt-5  badge badge-soft badge-success">Available</div>  ) 
         }
     <div className=" ml-9 mt-5  badge badge-soft badge-info">{experience} Exp.</div>
    </div>

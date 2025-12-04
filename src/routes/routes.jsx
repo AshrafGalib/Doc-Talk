@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   createBrowserRouter,
-  RouterProvider,
 } from "react-router"
 import Root from '../pages/Root/Root';
 import Home from '../pages/Home/Home';
@@ -20,8 +19,8 @@ export const router = createBrowserRouter([
       },
   Component :Root,
   children :[
-    {index:true,
-   loader: async () => {
+  {index:true,
+  loader: async () => {
   const res = await fetch('/Doctors.json');
   //if (!res.ok) throw new Error("Failed to load doctors");
   const data = await res.json(); // JSON parse
@@ -30,7 +29,6 @@ export const router = createBrowserRouter([
     shouldRevalidate: () => true ,  
     Component: Home},
     {path:"/mybookings",Component: Bookings},
-    {path:"/blogs",Component: Blogs},
     {path:"/contuctus",Component: ContuctUs},
     {path:"/doctorDetails/:registration_number",
       loader:async()=>{
@@ -39,6 +37,14 @@ export const router = createBrowserRouter([
         return data
       },
       Component:DoctorDetails
+    },
+    {path:"/blogs",
+      loader:async()=>{
+        const res = await fetch('/Blogs.json')
+        const data =await res.json()
+        return data
+      },
+      Component:Blogs
     }
   ]
   },

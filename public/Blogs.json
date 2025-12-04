@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "Ques": "What is useState in React?",
+    "ans": "useState is a React Hook that allows functional components to store and update values. It returns an array with two items: the current state value and a function to update it. Every time the update function is called, React re-renders the component. Example: const [count, setCount] = useState(0). Here, count is the current value, and setCount updates it. Whenever setCount(count + 1) is called, the component updates automatically."
+  },
+  {
+    "id": 2,
+    "Ques": "What is useEffect and why is it used?",
+    "ans": "useEffect is a hook used for side effects such as fetching API data, timers, event listeners, or updating the document title. It runs after the component renders. Example: useEffect(() => { document.title = 'Hello'; }, []). If the dependency array is empty, it runs only once. If dependencies change, the effect re-runs. A cleanup function return () => {} is used to clear timers or remove listeners."
+  },
+  {
+    "id": 3,
+    "Ques": "What is Lazy Loading in React?",
+    "ans": "Lazy loading means loading components only when they are needed. It improves website performance by reducing initial bundle size. Example: const Home = React.lazy(() => import('./Home')). Then wrap it inside <Suspense fallback={<Loader />}> <Home /> </Suspense>. This helps faster load and better performance."
+  },
+  {
+    "id": 4,
+    "Ques": "What is shouldRevalidate in React Router?",
+    "ans": "shouldRevalidate is a function used in React Router loaders to decide whether data should be refetched. It returns true or false. Example: shouldRevalidate: ({ currentUrl, nextUrl }) => currentUrl.pathname !== nextUrl.pathname. If it returns true, data loads again. This helps avoid unnecessary API calls and optimizes performance."
+  },
+  {
+    "id": 5,
+    "Ques": "What is createContext in React?",
+    "ans": "createContext is used to share data between components without props drilling. It creates a Context, and the Provider passes data to deep child components. Example: const UserContext = createContext(); <UserContext.Provider value={{user}}> <Child/> </UserContext.Provider>. Any component can access 'user' using useContext(UserContext)."
+  },
+  {
+    "id": 6,
+    "Ques": "What is Props Drilling?",
+    "ans": "Props drilling means passing data from parent to child through many intermediate components, even if they don’t need the data. Example: App → Parent → Child → Button. To solve this problem, use Context API so only required components access the data."
+  },
+  {
+    "id": 7,
+    "Ques": "What is Dependency Array in useEffect?",
+    "ans": "The dependency array controls when useEffect should run. Example: useEffect(() => {...}, [count]). It runs only when 'count' changes. If empty [], it runs once. If no array, it runs on every render. Correct usage prevents infinite loops."
+  },
+  {
+    "id": 8,
+    "Ques": "What is Cleanup Function in useEffect?",
+    "ans": "Cleanup function removes side effects such as event listeners, timers, or subscriptions. Example: useEffect(() => { const id = setInterval(() => console.log('running'), 1000); return () => clearInterval(id); }, []);. Without cleanup, memory leaks occur."
+  },
+  {
+    "id": 9,
+    "Ques": "What are Custom Hooks in React?",
+    "ans": "Custom hooks allow you to extract and reuse logic. They always start with use. Example: function useFetch(url) { const [data, setData] = useState(null); useEffect(() => { fetch(url).then(res => res.json()).then(setData); }, [url]); return data; }. Now useFetch('/api/user') can be used in any component."
+  },
+  {
+    "id": 10,
+    "Ques": "What is React.memo?",
+    "ans": "React.memo is used to prevent unnecessary re-renders of functional components. Example: export default React.memo(Button). If props don’t change, React skips re-rendering. Useful for performance optimization."
+  },
+  {
+    "id": 11,
+    "Ques": "What is useRef in React?",
+    "ans": "useRef stores mutable values that do not cause re-renders. Common uses: accessing DOM elements or storing previous values. Example: const inputRef = useRef(null); <input ref={inputRef}/>; inputRef.current.focus()."
+  },
+  {
+    "id": 12,
+    "Ques": "What is useReducer in React?",
+    "ans": "useReducer is used for complex state management. It works like Redux logic. Example: const [state, dispatch] = useReducer(reducer, initialState). dispatch({type: 'increment'}) updates the state using reducer logic. Useful when multiple state values depend on each other."
+  },
+  {
+    "id": 13,
+    "Ques": "What is Suspense and fallback in React?",
+    "ans": "Suspense is used to show a temporary UI (loader) while a component is being lazy-loaded. Example: <Suspense fallback={<Loader/>}> <LazyComponent/> </Suspense>. It improves user experience during lazy loading."
+  },
+  {
+    "id": 14,
+    "Ques": "What is useCallback?",
+    "ans": "useCallback memoizes a function so it is not recreated on every render. Useful when passing functions to child components. Example: const handleClick = useCallback(() => setCount(count+1), [count]). This prevents unnecessary re-renders in child components."
+  }
+]
