@@ -6,9 +6,7 @@ import { BookDocContext } from '../../../public/Context/bookContext';
 import {  useState } from 'react';
 import { toast } from 'react-toastify';
 import { getBookedDocFromLocalStorage, setBookedDocToLocalStorage } from '../../utilities/localStorage';
-
 const Root = () => {
-    
     const [bookedDoctors, setBookedDoctors] = useState(() => {
         return getBookedDocFromLocalStorage();
     });
@@ -19,7 +17,6 @@ const Root = () => {
             toast("Appointment already scheduled for today", { type: "error" });
             return;
         }
-
         toast(`Appointment scheduled for ${doctor.name} successfully`, { type: "success" });
 
         const updated = [...bookedDoctors, doctor];

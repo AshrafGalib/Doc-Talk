@@ -8,6 +8,7 @@ import Bookings from '../pages/Bookings/Bookings';
 import Blogs from '../pages/Blogs/Blogs';
 import ContuctUs from '../pages/ContuctUs/ContuctUs';
 import DoctorDetails from '../pages/DoctorDetails/DoctorDetails';
+import NotFound from '../components/NotFound/NotFound';
 
 export const router = createBrowserRouter([
   {
@@ -48,4 +49,8 @@ export const router = createBrowserRouter([
     }
   ]
   },
+  {
+    path:'*',
+    Component:NotFound
+  }
 ]);
