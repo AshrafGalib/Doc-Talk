@@ -25,6 +25,7 @@ const Root = () => {
     };
 
     const handleCancelBook = (id) => {
+        toast("Appointment cancelled", { type: "error" });
         const updated = bookedDoctors.filter(doc => doc.id !== id);
         setBookedDoctors(updated);
         localStorage.setItem("Booked Doctor", JSON.stringify(updated));
